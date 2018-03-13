@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17D755BD2056C7E000A6E48D /* TestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D755BC2056C7E000A6E48D /* TestItem.m */; };
 		840C0C8820562E8200EF1181 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C0C8720562E8200EF1181 /* main.m */; };
 		840C0C8B20562E8200EF1181 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C0C8A20562E8200EF1181 /* AppDelegate.m */; };
 		840C0C8E20562E8200EF1181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C0C8D20562E8200EF1181 /* ViewController.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17D755BB2056C7E000A6E48D /* TestItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestItem.h; sourceTree = "<group>"; };
+		17D755BC2056C7E000A6E48D /* TestItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestItem.m; sourceTree = "<group>"; };
 		840C0C8320562E8200EF1181 /* expandSizeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expandSizeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C0C8720562E8200EF1181 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840C0C8920562E8200EF1181 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				840C0C9E20562E9900EF1181 /* UIButton+expandSize.m */,
 				840C0CAF2056787700EF1181 /* XItem.h */,
 				840C0CB02056787700EF1181 /* XItem.m */,
+				17D755BB2056C7E000A6E48D /* TestItem.h */,
+				17D755BC2056C7E000A6E48D /* TestItem.m */,
 				840C0C8F20562E8200EF1181 /* Main.storyboard */,
 				840C0C9220562E8200EF1181 /* Assets.xcassets */,
 				840C0C9420562E8200EF1181 /* LaunchScreen.storyboard */,
@@ -183,6 +188,7 @@
 			files = (
 				840C0CA120562E9900EF1181 /* UIButton+expandSize.m in Sources */,
 				840C0C8E20562E8200EF1181 /* ViewController.m in Sources */,
+				17D755BD2056C7E000A6E48D /* TestItem.m in Sources */,
 				840C0C8B20562E8200EF1181 /* AppDelegate.m in Sources */,
 				840C0CB12056787700EF1181 /* XItem.m in Sources */,
 				840C0CA5205643A000EF1181 /* RedView.m in Sources */,
@@ -348,6 +354,7 @@
 				840C0C9C20562E8200EF1181 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

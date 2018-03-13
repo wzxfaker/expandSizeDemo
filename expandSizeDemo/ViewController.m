@@ -61,6 +61,11 @@
     item.name = @"王泽信";
     item.sex = @"男";
     NSLog(@"个人信息--%@，%@",item.name,item.sex);
+    
+    //消息转发机制验证
+    id secondItem = [[XItem alloc] init];
+//    [secondItem appendString:@"哈哈"];
+    [secondItem performSelector:@selector(goAndRun)];
 }
 
 - (void)btnClick{
