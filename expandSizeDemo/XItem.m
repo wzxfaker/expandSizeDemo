@@ -72,7 +72,12 @@ void dynamicAdditionMethod(id self,SEL _cmd,id *str){
 }
 
 //4.如果前边三个都不能处理，就会抛出doesnotRecognizeSelector异常，程序崩溃
-    
+
+
+
+- (void)testMethod{
+    NSLog(@"本类中的test方法");
+}
 
 
 

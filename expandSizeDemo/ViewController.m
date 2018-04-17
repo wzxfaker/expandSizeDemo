@@ -38,7 +38,7 @@
     button.center = self.view.center;
     button.backgroundColor = [UIColor orangeColor];
     [button setTitle:@"测试" forState:UIControlStateNormal];
-//    [button expandSize:100];
+    [button expandSize:100];
     [self.view addSubview:button];
     
     RedView *redView = [[RedView alloc] initWithFrame:CGRectMake(10, 10, 200, 300)];
@@ -60,6 +60,7 @@
     XItem *item = [[XItem alloc] init];
     item.name = @"王泽信";
     item.sex = @"男";
+    [item testMethod];
     NSLog(@"个人信息--%@，%@",item.name,item.sex);
     
     //消息转发机制验证

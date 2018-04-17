@@ -14,5 +14,7 @@
 @property (nonatomic, copy) NSString *name;
 /** <##> */
 @property (nonatomic, copy) NSString *sex;
+/** 测试方法 */
+- (void)testMethod;
 
 @end
